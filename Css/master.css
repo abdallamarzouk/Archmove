@@ -1,0 +1,296 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+ }
+
+ body {
+   background: #F9F9F9;
+   --main-color: #FD665E;
+ }
+
+ /* Start navbar */
+ nav.navbar {
+   margin-bottom: 50px;
+   padding: 35px;
+ }
+
+ li.main.nav-item a {
+   color: #585858;
+   transition: background .3s;
+   margin: 15px;
+ }
+
+ li.main.nav-item a:hover {
+   background: #f4a6a2;
+   border-radius: 7px;
+ }
+
+ div.user-bar {
+   margin: 15px !important;
+ }
+
+ li#signUpBtn a {
+   background: var(--main-color);
+   color: #F9F9F9;
+   border-radius: 5px;
+   height: 42px;
+   text-align: center;
+ }
+
+ li#signUpBtn a:hover {
+   background: #e44941;
+ }
+
+ li#signInBtn a {
+   width: 115px;
+   height: 50px;
+ }
+
+ a img.ic-searhc {
+   margin-right: 30px;
+ }
+
+ /* End navbar */
+
+
+ /* Design section */
+ div h1.main-header {
+   font-size: 125px;
+   font-weight: 700;
+   font-family: New York Extra Large;
+ }
+
+ div h1.main-header span {
+   color: var(--main-color);
+   font-family: New York Extra Large;
+ }
+
+ div p.first-paragraph {
+   color: #000000;
+   font-weight: 500;
+   font-size: 19px;
+   margin: 20px;
+ }
+
+ div button.free-consultation {
+   background: var(--main-color);
+   text-align: center !important;
+   color: #F9F9F9 !important;
+   margin: 20px;
+   width: 195px;
+   height: 70px;
+   font-size: 17px;
+ }
+
+ div button.free-consultation:hover {
+   background: #e44941;
+ }
+
+ /* End Design section */
+
+ div.col-md-12 {
+   margin-top: 90px !important;
+ }
+
+
+ /* Room section */
+ div.section-header h2 {
+   margin-left: 40%;
+   padding: 75px 0 50px;
+   font-weight: 700;
+   font-family: New York;
+   font-size: 48px;
+   line-height: 59.52px;
+ }
+
+ div.card img {
+   width: 100%;
+   height: 500px;
+   padding: 4px;
+ }
+
+ /* End Room section */
+
+
+ /* Build section */
+ div.section-header h3 {
+   padding: 80px 0 20px;
+   font-weight: 700;
+   font-family: New York;
+   font-size: 48px;
+   line-height: 59.52px;
+ }
+
+ div.build-img img {
+   width: 574px;
+   height: 635px;
+ }
+
+ div.first-content img {
+   width: 48px;
+   height: 55px;
+   margin: 15px;
+ }
+
+ div.first-content h4 {
+   font-family: SF UI Display;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 700;
+   width: 400px;
+   line-height: 25.6px;
+ }
+
+ div.first-content p {
+   width: 322px;
+   line-height: 25.6px;
+   font-family: SF UI Display;
+   font-size: 16px;
+   font-weight: 400;
+ }
+
+ div.first-content.float-end {
+   margin: 40px 40px 20px 0;
+ }
+
+ div.second-content img {
+   width: 48px;
+   height: 55px;
+   margin: 15px;
+ }
+
+ div.second-content h4 {
+   font-family: SF UI Display;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 700;
+   width: 400px;
+   line-height: 25.6px;
+ }
+
+ div.second-content p {
+   width: 322px;
+   line-height: 25.6px;
+   font-family: SF UI Display;
+   font-size: 16px;
+   font-weight: 400;
+ }
+
+ div.second-content.float-end {
+   margin: 40px 40px 20px 0;
+ }
+
+ div.third-content img {
+   width: 48px;
+   height: 55px;
+   margin: 15px;
+ }
+
+ div.third-content h4 {
+   font-family: SF UI Display;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 700;
+   width: 400px;
+   line-height: 25.6px;
+ }
+
+ div.third-content p {
+   width: 322px;
+   line-height: 25.6px;
+   font-family: SF UI Display;
+   font-size: 16px;
+   font-weight: 400;
+ }
+
+ div.third-content.float-end {
+   margin: 40px 40px 20px 0;
+ }
+
+ div.btn-content button {
+   width: 245px;
+   height: 70px;
+   margin: 50px 125px;
+ }
+
+ /* End Build section */
+
+
+ /* Suond section */
+ section#sound.sound.section-padding {
+   background: #F9F9F9;
+   margin-bottom: 100px;
+ }
+
+ div.sound-paragraph img {
+   margin: 0 35px 0 23vh;
+ }
+
+ div.sound-paragraph p {
+   font-family: SF UI Display;
+   font-weight: 300;
+   font-size: 33px;
+   line-height: 51.2px;
+ }
+
+ div.sound-paragraph.float-end {
+   margin-right: 215px;
+ }
+
+ /* End Sound section */
+
+ /* Dream section */
+ div.dream-archmove img {
+   width: 500px;
+   height: 500px;
+ }
+
+ h2.last-header {
+   margin: 13vh 0 0 65vh;
+   font-family: 'New York';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 124%;
+ }
+
+ h2.last-header span {
+   font-family: 'New York';
+   font-weight: 700;
+   font-size: 48px;
+   color: var(--main-color);
+ }
+
+ div.col-md-12 {
+   margin-bottom: 100px;
+ }
+
+ /* End Dream section */
+
+
+ /* Footer */
+ footer ul li.nav-item {
+   margin: 30px;
+   width: 100px;
+   height: 48px;
+   font-weight: 500;
+   text-align: center;
+ }
+
+ footer a img {
+   width: 56px;
+   height: 27px;
+ }
+
+ .hidden {
+   opacity: 0;
+   transition: all 1.3s;
+ }
+
+ .show {
+   opacity: 1;
+ }
